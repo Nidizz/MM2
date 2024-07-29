@@ -42,8 +42,12 @@ local newsec = tab1:Section("Scripts")
 local shadersec = tab2:Section("Shaders")
 local informationsec = tab3:Section("Information")
 
-local label = informationsec:Label("Scripter | .vsenew")
 
+local label = informationsec:Label("Scripter | .vsenew")
+local label = informationsec:Label("Helper | uerd  [ Owner of Etronix] ")
+local button = informationsec:Button( " Etronix Discord",function()
+	setclipboard ("https://discord.gg/JMjeh3sX")
+end)
 local label = shadersec:Label("Here are some shaders that I can share.","Add .vsenew on discord ") 
 
 local button = shadersec:Button("Tropical Shader",function()
